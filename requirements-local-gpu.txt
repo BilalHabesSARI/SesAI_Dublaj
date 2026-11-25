@@ -1,0 +1,32 @@
+# SesAI Dublaj Stüdyosu - Yerel NVIDIA CUDA GPU Modu (RTX 4070 12 GB VRAM Optimize)
+# Python 3.12 + CUDA + VoxCPM2 (48 kHz) + Trendyol-TTS + Seed-VC (Sıfır Eğitimli STS) + Chatterbox + XTTS v2 + faster-whisper + Meta HTDemucs
+# Tüm sürüm aralıkları numpy<2.0.0 ve Python 3.12 ile çakışmasız çalışacak şekilde sabitlenmiştir.
+
+numpy>=1.26.4,<2.0.0
+scipy>=1.13.0,<1.16.0
+librosa==0.11.0
+transformers==5.2.0
+faster-whisper>=1.1.0
+av>=11.0.0,<18.0.0
+coqui-tts>=0.28.0
+demucs>=4.0.1
+resemble-perth>=1.0.0
+s3tokenizer
+conformer==0.3.2
+diffusers==0.29.0
+safetensors>=0.5.3
+omegaconf
+einops
+pykakasi==2.3.0
+spacy-pkuseg
+pyloudnorm
+six
+addict
+argbind
+simplejson
+sortedcontainers
+wetext
+munch>=4.0.0
+sounddevice>=0.5.0
+pyyaml>=6.0
+deep-translator>=1.11.4

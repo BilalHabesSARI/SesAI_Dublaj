@@ -1,0 +1,81 @@
+# ==============================================================================
+# SesAI Dublaj Stüdyosu — .gitignore (v1.0 Beta Açık Kaynak Sürümü)
+# Kişisel ayarlar, API anahtarları, oyun sesleri/arşivleri ve büyük modeller
+# kesinlikle Git deposu dışında tutulur.
+# ==============================================================================
+
+# --- 1. Kişisel Ayarlar, API Anahtarları, Taslaklar ve Veritabanları ---
+_veri/
+*.env
+.env
+.env.*
+*api_key*
+*apikey*
+ayarlar.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# --- 2. Oyun Sesleri, Paketler, Yedekler ve Geçici Dosyalar ---
+# (Kök dizine sabitlenmiştir; core/hitman_*.py ve tools/hitman_*.py kod dosyaları korunur)
+/Hitman_*/
+/Hitman*/
+/Hitman türkçe sesi/
+/Dublaj_Test/
+/_yedekler/
+/_temp/
+/_temp_verify_*.txt
+*.wav
+*.WAV
+*.mp3
+*.MP3
+*.ogg
+*.OGG
+*.flac
+*.FLAC
+*.wwes
+*.WWES
+*.meta
+*.META
+*.meta.JSON
+*.rpkg
+*.RPKG
+*.wem
+*.WEM
+*.bnk
+*.BNK
+
+# --- 3. Büyük Yapay Zeka Modelleri, Sanal Ortamlar ve Harici .exe Araçları ---
+_modeller/
+_araclar/
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.exe
+*.dll
+*.so
+*.pyd
+*.zip
+*.7z
+*.rar
+
+# --- 4. IDE ve İşletim Sistemi Artıkları ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
